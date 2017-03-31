@@ -30,7 +30,21 @@ namespace CSharp7._0
 
             // OutVarFunction(out var g, out *);
             #endregion
-
+            #region 2nd Feature: Patterns: "is" Clause
+            // Previously you can only use "is" to check type of a variable //
+            // Previously is clause can only have a type on its right hand side //
+            // where as left hand side a Variable //
+            if (typeof(Program) is int[]) { Console.WriteLine("This line of code will never execute."); }
+            if (a is int[]) { Console.WriteLine("This line of code will never execute."); }
+            // but now you can do 3 more things with "is" clause //
+            // the right hand side of an is clause can have a pattern //
+            // Constant Pattern //
+            int? q = null;
+            if (q is null) { Console.WriteLine("Yep q is null."); }
+            // Type Pattern //
+            if (q is int p) { Console.WriteLine("Just Declared a Variable p in local scope and this line is never going to be execute."); }
+            // Last but not the least, you can use Patters in Switch's case //
+            #endregion
         }
         #region 1st Feature: out Variables Wild card and Parameter Declaration
         static void OutVarFunction(out int y, out int x)
