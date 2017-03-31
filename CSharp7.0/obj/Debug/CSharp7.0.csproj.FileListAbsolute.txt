@@ -1,0 +1,6 @@
+C:\Users\SOFTAGE\documents\visual studio 2017\Projects\CSharp7.0\CSharp7.0\obj\Debug\CSharp7.0.csprojResolveAssemblyReference.cache
+C:\Users\SOFTAGE\documents\visual studio 2017\Projects\CSharp7.0\CSharp7.0\bin\Debug\CSharp7.0.exe.config
+C:\Users\SOFTAGE\documents\visual studio 2017\Projects\CSharp7.0\CSharp7.0\bin\Debug\CSharp7.0.exe
+C:\Users\SOFTAGE\documents\visual studio 2017\Projects\CSharp7.0\CSharp7.0\bin\Debug\CSharp7.0.pdb
+C:\Users\SOFTAGE\documents\visual studio 2017\Projects\CSharp7.0\CSharp7.0\obj\Debug\CSharp7.0.exe
+C:\Users\SOFTAGE\documents\visual studio 2017\Projects\CSharp7.0\CSharp7.0\obj\Debug\CSharp7.0.pdb
